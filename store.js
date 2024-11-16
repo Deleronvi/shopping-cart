@@ -17,12 +17,19 @@ for (var i = 0; i < removeCartItemButtons.length; i++) {
         var input = quantityInput[i]
         input.addEventListener('change', quantityChanged)
     }
-}
+
 
 var addCartButton = document.getElementsByClassName('shop-item-button')
 for (var i =0; i < addCartButton.length; i++) {  
 var buttonClicked = addCartButton[i]
 buttonClicked.addEventListener('click', addToCartClicked)
+}
+
+document.getElementsByClassName('btn-purchase')[0].addEventListener('click', purchaseClicked)
+}
+
+function purchaseClicked(){
+    alert('Thank you for your purchase')
 }
 
 function removeCartItem(event) {

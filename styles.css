@@ -89,13 +89,6 @@ html, body {
     font-size: 2.5em;
 }
 
-.about-band-image {
-    float: left;
-    height: 200px;
-    width: 200px;
-    margin: 15px;
-    border-radius: 50%;
-}
 
 .main-footer {
     background-color: #56CCF2;
@@ -169,38 +162,6 @@ html, body {
     background-color: #2D9CDB;
 }
 
-.tour-row {
-    border-bottom: 1px solid black;
-    padding-bottom: 1em;
-    margin-bottom: 1em;
-}
-
-.tour-row:last-child {
-    border: none;
-}
-
-.tour-item {
-    display: inline-block;
-    padding-right: .5em;
-}
-
-.tour-date {
-    color: #555;
-    width: 11%;
-    font-weight: bold;
-}
-
-.tour-city {
-    width: 24%;
-}
-
-.tour-arena {
-    width: 42%;
-}
-
-.tour-btn {
-    max-width: 19%;
-}
 
 .shop-item {
     margin: 30px;
